@@ -1,0 +1,75 @@
+* {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#content {
+    height: 100%;
+    background: url("pexels-rachel-claire-4577179.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: lightskyblue;
+}
+#header {
+    color: coral;
+}
+#header > h1 {
+    position: absolute;
+    background: none;
+    height: 20px;
+    font-size: 75px;
+    top: 10%;
+    left: 35%;
+}
+#header > small {
+    position: absolute;
+    background: none;
+    height: 20px;
+    font-size: 15px;
+    top: 22%;
+    left: 55%;
+}
+#card-container {
+    position: absolute;
+    background: none;
+    height: 500px;
+    display: flex;
+    top: 35%;
+    left: 5%;
+    width: 90%;
+    justify-content: space-evenly;
+}
+.card-columns {
+    width: 33%;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+}
+.card-columns > p {
+    font-size: 17px;
+    color: lightyellow;
+    padding-top: 295px;
+    margin: 0 auto;
+    width: 400px;
+}
+#card-1 {
+    background: url("pexels-daria-shevtsova-1095550.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center top 5%;
+}
+#card-2 {
+    background: url("pexels-dzenina-lukac-1583884.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center top 5%;
+}
+#card-3 {
+    background: url("pexels-picjumbocom-196643.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center top 5%;
+}   

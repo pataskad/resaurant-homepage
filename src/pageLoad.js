@@ -5,21 +5,7 @@ export { pageLoadRender }
 function pageLoadRender() {
     const content = document.querySelector('#content')
 
-    // header
-    const header = document.createElement('div')
-    header.id = 'header'
-    const title = document.createElement('h1')
-    title.textContent = 'Fancy Restaurant'
-    const smallText = document.createElement('small')
-    smallText.textContent = 'Great food, service, and a friendly atmosphere!'
-    header.appendChild(title)
-    header.appendChild(smallText)
-    content.appendChild(header)
-
-    // card container, houses card columns and content, then appended to content
-    const cardContainer = document.createElement('div')
-    cardContainer.id = 'card-container'
-    content.appendChild(cardContainer)
+    const cardContainer = document.querySelector('#card-container')
 
     // card columns
     const card1 = document.createElement('div')

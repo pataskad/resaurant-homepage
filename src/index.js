@@ -1,7 +1,19 @@
-import { pageLoadRender } from './pageLoad.js' // import function from pageLoad.js!
-import './style.css' // imports stylesheet to manipulate css
+import { pageLoadRender } from './pageLoad.js'
+import { menuRender } from './menu.js'
+import './style.css'
 
 window.onload = function() {
+
+    // header
+    const header = document.createElement('div')
+    header.id = 'header'
+    const title = document.createElement('h1')
+    title.textContent = 'Fancy Restaurant'
+    const smallText = document.createElement('small')
+    smallText.textContent = 'Great food, service, and a friendly atmosphere!'
+    header.appendChild(title)
+    header.appendChild(smallText)
+    content.appendChild(header)
     
     // tabs default rendering
     const tabDiv = document.createElement('div')
@@ -21,6 +33,11 @@ window.onload = function() {
     contactTab.textContent = 'Contact'
     contactTab.classList.add('browse-btns')
 
+    // card container, houses card columns and content, then appended to content
+    const cardContainer = document.createElement('div')
+    cardContainer.id = 'card-container'
+
+    content.appendChild(cardContainer)
     tabDiv.appendChild(homeTab)
     tabDiv.appendChild(menuTab)
     tabDiv.appendChild(contactTab)
@@ -28,26 +45,51 @@ window.onload = function() {
 
     pageLoadRender();
 
+    const container = document.querySelector('#card-container')
+
     document.addEventListener('click', function(e) {
-        // if 'tab' clicked, clear contents and append new tab contents to display content container
         // inserted within window.onload to prevent rendering/catching each event three times (due to webpack??)
         if (e.target.textContent === 'Home') {
-            // clear contents and render home contents (what if already clicked?)
-            homeTab.classList.add('active-tab')
-            menuTab.classList.remove('active-tab')
-            contactTab.classList.remove('active-tab')
+            if (homeTab.classList.contains('active-tab')) {
+                console.log('ehh')
+                // disable button?
+            } else {
+                while (container.firstChild) {
+                    container.removeChild(container.lastChild)
+                }
+                homeTab.classList.add('active-tab')
+                menuTab.classList.remove('active-tab')
+                contactTab.classList.remove('active-tab')
+                pageLoadRender()
+            }
         }
         if (e.target.textContent === 'Menu') {
-            // clear contents and render home contents (what if already clicked?)
-            menuTab.classList.add('active-tab')
-            contactTab.classList.remove('active-tab')
-            homeTab.classList.remove('active-tab')
+            if (menuTab.classList.contains('active-tab')) {
+                console.log('ehhh2')
+                // disable button?
+            } else {
+                while (container.firstChild) {
+                    container.removeChild(container.lastChild)
+                }
+                menuTab.classList.add('active-tab')
+                contactTab.classList.remove('active-tab')
+                homeTab.classList.remove('active-tab')
+                // function to render menu options - menuRender()
+            }
         }
         if (e.target.textContent === 'Contact') {
-            // clear contents and render home contents (what if already clicked?)
-            contactTab.classList.add('active-tab')
-            menuTab.classList.remove('active-tab')
-            homeTab.classList.remove('active-tab')
+            if (contactTab.classList.contains('active-tab')) {
+                console.log('weeee')
+                // disable button?
+            } else {
+                while (container.firstChild) {
+                    container.removeChild(container.lastChild)
+                }
+                contactTab.classList.add('active-tab')
+                menuTab.classList.remove('active-tab')
+                homeTab.classList.remove('active-tab')
+                // fucntion to render contact information
+            }
         }
     })
 }

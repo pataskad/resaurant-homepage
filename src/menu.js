@@ -1,1 +1,5 @@
-// this file will contain the function and export to render 'menu' content
+export { menuRender }
+
+function menuRender() {
+    const content = document.querySelector('#content')
+}

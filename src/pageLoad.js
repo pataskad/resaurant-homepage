@@ -1,5 +1,7 @@
 export { pageLoadRender }
 
+
+// function creates/loads default page on initial browser launch
 function pageLoadRender() {
     const content = document.querySelector('#content')
 

@@ -11,7 +11,7 @@ function pageLoadRender() {
     const title = document.createElement('h1')
     title.textContent = 'Fancy Restaurant'
     const smallText = document.createElement('small')
-    smallText.textContent = 'Great food, service, and a friendly atmosphere'
+    smallText.textContent = 'Great food, service, and a friendly atmosphere!'
     header.appendChild(title)
     header.appendChild(smallText)
     content.appendChild(header)

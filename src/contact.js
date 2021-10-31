@@ -1,0 +1,1 @@
+// this file will contain the function to render 'contact' information to the page

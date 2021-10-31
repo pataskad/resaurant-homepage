@@ -1,0 +1,1 @@
+// this file will contain the function and export to render 'menu' content

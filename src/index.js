@@ -1,5 +1,6 @@
 import { pageLoadRender } from './pageLoad.js'
 import { menuRender } from './menu.js'
+import { contactRender } from './contact.js'
 import './style.css'
 
 window.onload = function() {
@@ -74,7 +75,7 @@ window.onload = function() {
                 menuTab.classList.add('active-tab')
                 contactTab.classList.remove('active-tab')
                 homeTab.classList.remove('active-tab')
-                // function to render menu options - menuRender()
+                menuRender()
             }
         }
         if (e.target.textContent === 'Contact') {
@@ -88,7 +89,7 @@ window.onload = function() {
                 contactTab.classList.add('active-tab')
                 menuTab.classList.remove('active-tab')
                 homeTab.classList.remove('active-tab')
-                // fucntion to render contact information
+                contactRender()
             }
         }
     })

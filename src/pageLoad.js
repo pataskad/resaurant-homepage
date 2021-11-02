@@ -3,8 +3,6 @@ export { pageLoadRender }
 
 // function creates/loads default page on initial browser launch
 function pageLoadRender() {
-    const content = document.querySelector('#content')
-
     const cardContainer = document.querySelector('#card-container')
 
     // card columns
@@ -23,7 +21,6 @@ function pageLoadRender() {
     const p1 = document.createElement('p')
     const p2 = document.createElement('p')
     const p3 = document.createElement('p')
-
     p1.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam eget felis eget nunc lobortis mattis aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam eget felis eget nunc lobortis mattis aliquam.'
     p2.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam eget felis eget nunc lobortis mattis aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam eget felis eget nunc lobortis mattis aliquam.'
     p3.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam eget felis eget nunc lobortis mattis aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam eget felis eget nunc lobortis mattis aliquam.'
@@ -31,7 +28,6 @@ function pageLoadRender() {
     card1.appendChild(p1)
     card2.appendChild(p2)
     card3.appendChild(p3)
-
     cardContainer.appendChild(card1)
     cardContainer.appendChild(card2)
     cardContainer.appendChild(card3)

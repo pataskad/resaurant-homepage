@@ -68,7 +68,7 @@
     position: absolute;
     background: none;
     height: 20px;
-    font-size: 15px;
+    font-size: 20px;
     font-style: italic;
     top: 13%;
     left: 55%;
@@ -78,7 +78,7 @@
     background: none;
     height: 500px;
     display: flex;
-    top: 45%;
+    top: 42%;
     left: 5%;
     width: 90%;
     justify-content: space-evenly;
@@ -90,29 +90,92 @@
     padding: 20px;
     color: whitesmoke;
 }
+.card-columns > h2 {
+    color: lightyellow;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 280px;
+}
 .card-columns > p {
     font-size: 17px;
     color: lightyellow;
-    padding-top: 295px;
     margin: 0 auto;
     width: 400px;
+    padding-top: 280px;
     height: auto;
 }
 #card-1 {
-    background: url("pexels-daria-shevtsova-1095550.jpg");
+    background: url("pexels-edward-eyer-2923034.jpg");
     background-repeat: no-repeat;
     background-size: 400px;
     background-position: center top 5%;
 }
 #card-2 {
-    background: url("pexels-dzenina-lukac-1583884.jpg");
+    background: url("pexels-valeria-boltneva-1484516.jpg");
     background-repeat: no-repeat;
     background-size: 400px;
     background-position: center top 5%;
 }
 #card-3 {
+    background: url("pexels-cottonbro-4255412.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center top 5%;
+} 
+.menu-columns {
+    width: 33%;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+}  
+.menu-columns > h2 {
+    color: coral;
+    font-style: italic;
+    font-size: xx-large;
+    margin: 0 auto;
+    height: auto;
+    padding: 250px 0 20px 0;
+}
+.menu-columns > p {
+    font-size: 17px;
+    color: lightyellow;
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+}
+#menu-1 {
+    background: url("pexels-daria-shevtsova-1095550.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center top 5%;
+}
+#menu-2 {
+    background: url("pexels-dzenina-lukac-1583884.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center top 5%;
+}
+#menu-3 {
     background: url("pexels-picjumbocom-196643.jpg");
     background-repeat: no-repeat;
     background-size: 400px;
     background-position: center top 5%;
-}   
+}
+.address-block {
+    color: coral;
+    display: block;
+    font-style: italic;
+    text-align: center;
+}
+.address-block > h1 {
+    font-size: xxx-large;
+    height: auto;
+    margin-bottom: 20px;
+}
+.address-block > p {
+    font-size: x-large;
+    line-height: 60px;
+    margin-bottom: 20px;
+    height: auto;
+}

@@ -16,14 +16,14 @@ window.onload = function() {
     header.appendChild(smallText)
     content.appendChild(header)
     
-    // tabs default rendering
     const tabDiv = document.createElement('div')
     tabDiv.classList.add('tab-div')
 
     const homeTab = document.createElement('button')
     homeTab.textContent = 'Home'
     homeTab.classList.add('browse-btns')
-    homeTab.classList.add('active-tab') // default | change to event listener to activate/deactivate active tab
+    homeTab.classList.add('active-tab')
+    homeTab.disabled = true
 
     // hometab 'clicked' since default starting point
     const menuTab = document.createElement('button')
@@ -34,7 +34,7 @@ window.onload = function() {
     contactTab.textContent = 'Contact'
     contactTab.classList.add('browse-btns')
 
-    // card container, houses card columns and content, then appended to content
+    // always ' present', but content will be added/removed as each tab is 'clicked'
     const cardContainer = document.createElement('div')
     cardContainer.id = 'card-container'
 
@@ -51,10 +51,6 @@ window.onload = function() {
     document.addEventListener('click', function(e) {
         // inserted within window.onload to prevent rendering/catching each event three times (due to webpack??)
         if (e.target.textContent === 'Home') {
-            if (homeTab.classList.contains('active-tab')) {
-                console.log('ehh')
-                // disable button?
-            } else {
                 while (container.firstChild) {
                     container.removeChild(container.lastChild)
                 }
@@ -62,13 +58,11 @@ window.onload = function() {
                 menuTab.classList.remove('active-tab')
                 contactTab.classList.remove('active-tab')
                 pageLoadRender()
-            }
+                homeTab.disabled = true
+                menuTab.disabled = false
+                contactTab.disabled = false
         }
         if (e.target.textContent === 'Menu') {
-            if (menuTab.classList.contains('active-tab')) {
-                console.log('ehhh2')
-                // disable button?
-            } else {
                 while (container.firstChild) {
                     container.removeChild(container.lastChild)
                 }
@@ -76,13 +70,12 @@ window.onload = function() {
                 contactTab.classList.remove('active-tab')
                 homeTab.classList.remove('active-tab')
                 menuRender()
-            }
+                menuTab.disabled = true
+                homeTab.disabled = false
+                contactTab.disabled = false
+
         }
         if (e.target.textContent === 'Contact') {
-            if (contactTab.classList.contains('active-tab')) {
-                console.log('weeee')
-                // disable button?
-            } else {
                 while (container.firstChild) {
                     container.removeChild(container.lastChild)
                 }
@@ -90,7 +83,9 @@ window.onload = function() {
                 menuTab.classList.remove('active-tab')
                 homeTab.classList.remove('active-tab')
                 contactRender()
-            }
+                contactTab.disabled = true
+                homeTab.disabled = false
+                menuTab.disabled = false
         }
     })
 }

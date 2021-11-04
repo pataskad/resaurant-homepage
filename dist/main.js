@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! pexels-rachel-claire-4577179.jpg */ \"./src/pexels-rachel-claire-4577179.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! pexels-edward-eyer-2923034.jpg */ \"./src/pexels-edward-eyer-2923034.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! pexels-valeria-boltneva-1484516.jpg */ \"./src/pexels-valeria-boltneva-1484516.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! pexels-cottonbro-4255412.jpg */ \"./src/pexels-cottonbro-4255412.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! pexels-daria-shevtsova-1095550.jpg */ \"./src/pexels-daria-shevtsova-1095550.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! pexels-dzenina-lukac-1583884.jpg */ \"./src/pexels-dzenina-lukac-1583884.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! pexels-picjumbocom-196643.jpg */ \"./src/pexels-picjumbocom-196643.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_6___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n    height: 100%;\\n    margin: 0;\\n    padding: 0;\\n    font-family: sans-serif;\\n}\\n#content {\\n    height: 100%;\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n    background-position: center;\\n    background-repeat: no-repeat;\\n    background-size: auto;\\n    background-color: lightskyblue;\\n}\\n.browse-btns {\\n    cursor: pointer;\\n    font-size: large;\\n    font-weight: bold;\\n    font-style: italic;\\n    color: rgba(22, 22, 22, 0.856);\\n    border: 3px solid coral;\\n    height: 80px;\\n    width: 125px;\\n    margin: 10px 30px 0px 30px;\\n    border-top-left-radius: 3px;\\n    border-top-right-radius: 25px;\\n    border-bottom: 5px solid transparent;\\n    position: relative;\\n    left: 32%;\\n    \\n}\\n.browse-btns:hover {\\n    transition-duration: 0.5s;\\n    box-shadow: inset 0 1px 15px 2px coral;\\n    border-bottom: 5px solid coral;\\n}\\n.browse-btns:active {\\n    transform: translateY(-5px);\\n    transition-duration: 30ms;\\n}\\n.active-tab {\\n    position: relative;\\n    top: -10px;\\n    border-bottom: 5px solid coral;\\n}\\n.tab-div {\\n    height: auto;\\n    position: absolute;\\n    top: 25%;\\n    left: 10%;\\n    width: 80%;\\n    border-bottom: 8px solid rgba(0, 0, 0, 0.788);\\n}\\n#header {\\n    color: coral;\\n    height: auto;\\n}\\n#header > h1 {\\n    position: absolute;\\n    background: none;\\n    height: 20px;\\n    font-size: 75px;\\n    font-style: italic;\\n    top: 3%;\\n    left: 33%;\\n}\\n#header > small {\\n    position: absolute;\\n    background: none;\\n    height: 20px;\\n    font-size: 20px;\\n    font-style: italic;\\n    top: 13%;\\n    left: 55%;\\n}\\n#card-container {\\n    position: absolute;\\n    background: none;\\n    height: 500px;\\n    display: flex;\\n    top: 42%;\\n    left: 5%;\\n    width: 90%;\\n    justify-content: space-evenly;\\n}\\n.card-columns {\\n    width: 33%;\\n    height: 200px;\\n    text-align: center;\\n    padding: 20px;\\n    color: whitesmoke;\\n}\\n.card-columns > h2 {\\n    color: lightyellow;\\n    margin: 0 auto;\\n    height: auto;\\n    padding-top: 280px;\\n}\\n.card-columns > p {\\n    font-size: 17px;\\n    color: lightyellow;\\n    margin: 0 auto;\\n    width: 400px;\\n    padding-top: 280px;\\n    height: auto;\\n}\\n#card-1 {\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\n    background-repeat: no-repeat;\\n    background-size: 400px;\\n    background-position: center top 5%;\\n}\\n#card-2 {\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\n    background-repeat: no-repeat;\\n    background-size: 400px;\\n    background-position: center top 5%;\\n}\\n#card-3 {\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \");\\n    background-repeat: no-repeat;\\n    background-size: 400px;\\n    background-position: center top 5%;\\n} \\n.menu-columns {\\n    width: 33%;\\n    height: 200px;\\n    text-align: center;\\n    padding: 20px;\\n    color: whitesmoke;\\n}  \\n.menu-columns > h2 {\\n    color: coral;\\n    font-style: italic;\\n    font-size: xx-large;\\n    margin: 0 auto;\\n    height: auto;\\n    padding: 250px 0 20px 0;\\n}\\n.menu-columns > p {\\n    font-size: 17px;\\n    color: lightyellow;\\n    margin: 0 auto;\\n    width: 400px;\\n    height: auto;\\n}\\n#menu-1 {\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \");\\n    background-repeat: no-repeat;\\n    background-size: 400px;\\n    background-position: center top 5%;\\n}\\n#menu-2 {\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \");\\n    background-repeat: no-repeat;\\n    background-size: 400px;\\n    background-position: center top 5%;\\n}\\n#menu-3 {\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_6___ + \");\\n    background-repeat: no-repeat;\\n    background-size: 400px;\\n    background-position: center top 5%;\\n}\\n.address-block {\\n    color: coral;\\n    display: block;\\n    font-style: italic;\\n    text-align: center;\\n}\\n.address-block > h1 {\\n    font-size: xxx-large;\\n    height: auto;\\n    margin-bottom: 20px;\\n}\\n.address-block > p {\\n    font-size: x-large;\\n    line-height: 60px;\\n    margin-bottom: 20px;\\n    height: auto;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://resaurant-homepage/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! assets/pexels-rachel-claire-4577179.jpg */ \"./src/assets/pexels-rachel-claire-4577179.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! assets/pexels-edward-eyer-2923034.jpg */ \"./src/assets/pexels-edward-eyer-2923034.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! assets/pexels-valeria-boltneva-1484516.jpg */ \"./src/assets/pexels-valeria-boltneva-1484516.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! assets/pexels-cottonbro-4255412.jpg */ \"./src/assets/pexels-cottonbro-4255412.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! assets/pexels-daria-shevtsova-1095550.jpg */ \"./src/assets/pexels-daria-shevtsova-1095550.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! assets/pexels-dzenina-lukac-1583884.jpg */ \"./src/assets/pexels-dzenina-lukac-1583884.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! assets/pexels-picjumbocom-196643.jpg */ \"./src/assets/pexels-picjumbocom-196643.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_6___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n    height: 100%;\\n    margin: 0;\\n    padding: 0;\\n    font-family: sans-serif;\\n}\\n#content {\\n    height: 100%;\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n    background-position: center;\\n    background-repeat: no-repeat;\\n    background-size: auto;\\n    background-color: lightskyblue;\\n}\\n.browse-btns {\\n    cursor: pointer;\\n    font-size: large;\\n    font-weight: bold;\\n    font-style: italic;\\n    color: rgba(22, 22, 22, 0.856);\\n    border: 3px solid coral;\\n    height: 80px;\\n    width: 125px;\\n    margin: 10px 30px 0px 30px;\\n    border-top-left-radius: 3px;\\n    border-top-right-radius: 25px;\\n    border-bottom: 5px solid transparent;\\n    position: relative;\\n    left: 32%;\\n    \\n}\\n.browse-btns:hover {\\n    transition-duration: 0.5s;\\n    box-shadow: inset 0 1px 15px 2px coral;\\n    border-bottom: 5px solid coral;\\n}\\n.browse-btns:active {\\n    transform: translateY(-5px);\\n    transition-duration: 30ms;\\n}\\n.active-tab {\\n    position: relative;\\n    top: -10px;\\n    border-bottom: 5px solid coral;\\n}\\n.tab-div {\\n    height: auto;\\n    position: absolute;\\n    top: 25%;\\n    left: 10%;\\n    width: 80%;\\n    border-bottom: 8px solid rgba(0, 0, 0, 0.788);\\n}\\n#header {\\n    color: coral;\\n    height: auto;\\n}\\n#header > h1 {\\n    position: absolute;\\n    background: none;\\n    height: 20px;\\n    font-size: 75px;\\n    font-style: italic;\\n    top: 3%;\\n    left: 33%;\\n}\\n#header > small {\\n    position: absolute;\\n    background: none;\\n    height: 20px;\\n    font-size: 20px;\\n    font-style: italic;\\n    top: 13%;\\n    left: 55%;\\n}\\n#card-container {\\n    position: absolute;\\n    background: none;\\n    height: 500px;\\n    display: flex;\\n    top: 42%;\\n    left: 5%;\\n    width: 90%;\\n    justify-content: space-evenly;\\n}\\n.card-columns {\\n    width: 33%;\\n    height: 200px;\\n    text-align: center;\\n    padding: 20px;\\n    color: whitesmoke;\\n}\\n.card-columns > h2 {\\n    color: lightyellow;\\n    margin: 0 auto;\\n    height: auto;\\n    padding-top: 280px;\\n}\\n.card-columns > p {\\n    font-size: 17px;\\n    color: lightyellow;\\n    margin: 0 auto;\\n    width: 400px;\\n    padding-top: 280px;\\n    height: auto;\\n}\\n#card-1 {\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\n    background-repeat: no-repeat;\\n    background-size: 400px;\\n    background-position: center top 5%;\\n}\\n#card-2 {\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\n    background-repeat: no-repeat;\\n    background-size: 400px;\\n    background-position: center top 5%;\\n}\\n#card-3 {\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \");\\n    background-repeat: no-repeat;\\n    background-size: 400px;\\n    background-position: center top 5%;\\n} \\n.menu-columns {\\n    width: 33%;\\n    height: 200px;\\n    text-align: center;\\n    padding: 20px;\\n    color: whitesmoke;\\n}  \\n.menu-columns > h2 {\\n    color: coral;\\n    font-style: italic;\\n    font-size: xx-large;\\n    margin: 0 auto;\\n    height: auto;\\n    padding: 250px 0 20px 0;\\n}\\n.menu-columns > p {\\n    font-size: 17px;\\n    color: lightyellow;\\n    margin: 0 auto;\\n    width: 400px;\\n    height: auto;\\n}\\n#menu-1 {\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \");\\n    background-repeat: no-repeat;\\n    background-size: 400px;\\n    background-position: center top 5%;\\n}\\n#menu-2 {\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \");\\n    background-repeat: no-repeat;\\n    background-size: 400px;\\n    background-position: center top 5%;\\n}\\n#menu-3 {\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_6___ + \");\\n    background-repeat: no-repeat;\\n    background-size: 400px;\\n    background-position: center top 5%;\\n}\\n.address-block {\\n    color: coral;\\n    display: block;\\n    font-style: italic;\\n    text-align: center;\\n}\\n.address-block > h1 {\\n    font-size: xxx-large;\\n    height: auto;\\n    margin-bottom: 20px;\\n}\\n.address-block > p {\\n    font-size: x-large;\\n    line-height: 60px;\\n    margin-bottom: 20px;\\n    height: auto;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://resaurant-homepage/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -160,73 +160,73 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/pexels-cottonbro-4255412.jpg":
-/*!******************************************!*\
-  !*** ./src/pexels-cottonbro-4255412.jpg ***!
-  \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"907fac649e641f559e58.jpg\";\n\n//# sourceURL=webpack://resaurant-homepage/./src/pexels-cottonbro-4255412.jpg?");
-
-/***/ }),
-
-/***/ "./src/pexels-daria-shevtsova-1095550.jpg":
-/*!************************************************!*\
-  !*** ./src/pexels-daria-shevtsova-1095550.jpg ***!
-  \************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"d8e823900c55d9e35047.jpg\";\n\n//# sourceURL=webpack://resaurant-homepage/./src/pexels-daria-shevtsova-1095550.jpg?");
-
-/***/ }),
-
-/***/ "./src/pexels-dzenina-lukac-1583884.jpg":
-/*!**********************************************!*\
-  !*** ./src/pexels-dzenina-lukac-1583884.jpg ***!
-  \**********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"3eb055dd84036ee882c6.jpg\";\n\n//# sourceURL=webpack://resaurant-homepage/./src/pexels-dzenina-lukac-1583884.jpg?");
-
-/***/ }),
-
-/***/ "./src/pexels-edward-eyer-2923034.jpg":
-/*!********************************************!*\
-  !*** ./src/pexels-edward-eyer-2923034.jpg ***!
-  \********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"d042d380118f1993da4e.jpg\";\n\n//# sourceURL=webpack://resaurant-homepage/./src/pexels-edward-eyer-2923034.jpg?");
-
-/***/ }),
-
-/***/ "./src/pexels-picjumbocom-196643.jpg":
-/*!*******************************************!*\
-  !*** ./src/pexels-picjumbocom-196643.jpg ***!
-  \*******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"716253a600e35dbf5782.jpg\";\n\n//# sourceURL=webpack://resaurant-homepage/./src/pexels-picjumbocom-196643.jpg?");
-
-/***/ }),
-
-/***/ "./src/pexels-rachel-claire-4577179.jpg":
-/*!**********************************************!*\
-  !*** ./src/pexels-rachel-claire-4577179.jpg ***!
-  \**********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"10dada96314d9d0b9c64.jpg\";\n\n//# sourceURL=webpack://resaurant-homepage/./src/pexels-rachel-claire-4577179.jpg?");
-
-/***/ }),
-
-/***/ "./src/pexels-valeria-boltneva-1484516.jpg":
+/***/ "./src/assets/pexels-cottonbro-4255412.jpg":
 /*!*************************************************!*\
-  !*** ./src/pexels-valeria-boltneva-1484516.jpg ***!
+  !*** ./src/assets/pexels-cottonbro-4255412.jpg ***!
   \*************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"fc60a77fb26be11c6718.jpg\";\n\n//# sourceURL=webpack://resaurant-homepage/./src/pexels-valeria-boltneva-1484516.jpg?");
+eval("module.exports = __webpack_require__.p + \"907fac649e641f559e58.jpg\";\n\n//# sourceURL=webpack://resaurant-homepage/./src/assets/pexels-cottonbro-4255412.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/pexels-daria-shevtsova-1095550.jpg":
+/*!*******************************************************!*\
+  !*** ./src/assets/pexels-daria-shevtsova-1095550.jpg ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"d8e823900c55d9e35047.jpg\";\n\n//# sourceURL=webpack://resaurant-homepage/./src/assets/pexels-daria-shevtsova-1095550.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/pexels-dzenina-lukac-1583884.jpg":
+/*!*****************************************************!*\
+  !*** ./src/assets/pexels-dzenina-lukac-1583884.jpg ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3eb055dd84036ee882c6.jpg\";\n\n//# sourceURL=webpack://resaurant-homepage/./src/assets/pexels-dzenina-lukac-1583884.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/pexels-edward-eyer-2923034.jpg":
+/*!***************************************************!*\
+  !*** ./src/assets/pexels-edward-eyer-2923034.jpg ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"d042d380118f1993da4e.jpg\";\n\n//# sourceURL=webpack://resaurant-homepage/./src/assets/pexels-edward-eyer-2923034.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/pexels-picjumbocom-196643.jpg":
+/*!**************************************************!*\
+  !*** ./src/assets/pexels-picjumbocom-196643.jpg ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"716253a600e35dbf5782.jpg\";\n\n//# sourceURL=webpack://resaurant-homepage/./src/assets/pexels-picjumbocom-196643.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/pexels-rachel-claire-4577179.jpg":
+/*!*****************************************************!*\
+  !*** ./src/assets/pexels-rachel-claire-4577179.jpg ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"10dada96314d9d0b9c64.jpg\";\n\n//# sourceURL=webpack://resaurant-homepage/./src/assets/pexels-rachel-claire-4577179.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/pexels-valeria-boltneva-1484516.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/pexels-valeria-boltneva-1484516.jpg ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"fc60a77fb26be11c6718.jpg\";\n\n//# sourceURL=webpack://resaurant-homepage/./src/assets/pexels-valeria-boltneva-1484516.jpg?");
 
 /***/ })
 

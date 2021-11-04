@@ -6,7 +6,7 @@
 }
 #content {
     height: 100%;
-    background: url("pexels-rachel-claire-4577179.jpg");
+    background: url("assets/pexels-rachel-claire-4577179.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
@@ -105,19 +105,19 @@
     height: auto;
 }
 #card-1 {
-    background: url("pexels-edward-eyer-2923034.jpg");
+    background: url("assets/pexels-edward-eyer-2923034.jpg");
     background-repeat: no-repeat;
     background-size: 400px;
     background-position: center top 5%;
 }
 #card-2 {
-    background: url("pexels-valeria-boltneva-1484516.jpg");
+    background: url("assets/pexels-valeria-boltneva-1484516.jpg");
     background-repeat: no-repeat;
     background-size: 400px;
     background-position: center top 5%;
 }
 #card-3 {
-    background: url("pexels-cottonbro-4255412.jpg");
+    background: url("assets/pexels-cottonbro-4255412.jpg");
     background-repeat: no-repeat;
     background-size: 400px;
     background-position: center top 5%;
@@ -145,19 +145,19 @@
     height: auto;
 }
 #menu-1 {
-    background: url("pexels-daria-shevtsova-1095550.jpg");
+    background: url("assets/pexels-daria-shevtsova-1095550.jpg");
     background-repeat: no-repeat;
     background-size: 400px;
     background-position: center top 5%;
 }
 #menu-2 {
-    background: url("pexels-dzenina-lukac-1583884.jpg");
+    background: url("assets/pexels-dzenina-lukac-1583884.jpg");
     background-repeat: no-repeat;
     background-size: 400px;
     background-position: center top 5%;
 }
 #menu-3 {
-    background: url("pexels-picjumbocom-196643.jpg");
+    background: url("assets/pexels-picjumbocom-196643.jpg");
     background-repeat: no-repeat;
     background-size: 400px;
     background-position: center top 5%;
